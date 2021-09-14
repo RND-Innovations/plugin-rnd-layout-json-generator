@@ -1,0 +1,47 @@
+{
+    "head": {
+        "title": "[[TITLE]]",
+        "text": "[[TEXT]]",
+        "keys": "[[KEYWORDS]]",
+        "short": "[[SHORT]]",
+        "layout": "page-shop"
+    },
+    "body": {
+        "shopfront": {
+            "id": "[[ID]]",
+            "title": "[[TITLE]]",
+            "text": "[[TEXT]]",
+            "layout": "shopfront",
+            "shopfront-item": {
+                "layout": "shopfront-item",
+                "icon": "[[ICON]]",
+                "title": "[[TITLE]]",
+                "text": "[[TEXT]]",
+                "btn-link": "[[BTN-LINK]]",
+                "btn-text": "[[BTN-TEXT]]"
+            }
+        },
+        "shopspecial": {
+            "id": "[[ID]]",
+            "title": "[[TITLE]]",
+            "text": "[[TEXT]]",
+            "layout": "shopspecial",
+            "shopspecial-item": {
+                "layout": "shopspecial-item",
+                "image-src": "[[IMAGE-SRC]]",
+                "title": "[[TITLE]]",
+                "text": "[[TEXT]]",
+                "btn-link": "[[BTN-LINK]]",
+                "btn-text": "[[BTN-TEXT]]"
+            }
+        },
+        "offer": {
+            "id": "[[ID]]",
+            "title": "[[TITLE]]",
+            "text": "[[TEXT]]",
+            "btn-link": "[[BTN-LINK]]",
+            "btn-text": "[[BTN-TEXT]]",
+            "layout": "offer"
+        }
+    }
+}

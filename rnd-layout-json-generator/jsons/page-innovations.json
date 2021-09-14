@@ -1,0 +1,33 @@
+{
+    "head": {
+        "title": "[[TITLE]]",
+        "text": "[[TEXT]]",
+        "keys": "[[KEYWORDS]]",
+        "short": "[[SHORT]]",
+        "layout": "page-innovations"
+    },
+    "body": {
+        "spotlights": {
+            "id": "[[ID]]",
+            "title": "[[TITLE]]",
+            "text": "[[TEXT]]",
+            "layout": "spotlights",
+            "spotlights-item": {
+                "layout": "spotlights-item",
+                "image-src": "[[IMAGE-SRC]]",
+                "title": "[[TITLE]]",
+                "text": "[[TEXT]]",
+                "btn-href": "[[BTN-HREF]]",
+                "btn-text": "[[BTN-TEXT]]"
+            }
+        },
+        "offer": {
+            "id": "[[ID]]",
+            "title": "[[TITLE]]",
+            "text": "[[TEXT]]",
+            "btn-link": "[[BTN-LINK]]",
+            "btn-text": "[[BTN-TEXT]]",
+            "layout": "offer"
+        }
+    }
+}
