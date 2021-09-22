@@ -3,11 +3,15 @@ A plugin to convert page layouts to json format.
 
 **Version: 1.1.0**
 
+# Before using this plugin
+
+This plugin is a support tool to create Page Layouts in RND Framework. For more details, [Read More Here](https://www.rndvn.com/docs/layouts).
+
 # How to use this plugin?
 
 1. Upload **rnd-layout-json-generator** to your plugins folder.
-2. Create your page layouts in the template folder.
-3. Reload the site once and get the json file from the **json** folder.
+2. Create your page layouts in layouts folder.
+3. Reload the site once and get the json file from the **layouts** folder.
 4. Use the json file to create new pages.
 
 # Why we use this plugin?
