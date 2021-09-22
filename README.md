@@ -1,7 +1,7 @@
 # plugin-rnd-layout-json-generator
 A plugin to convert page layouts to json format.
 
-**Version: 1.0.0**
+**Version: 1.1.0**
 
 # How to use this plugin?
 
