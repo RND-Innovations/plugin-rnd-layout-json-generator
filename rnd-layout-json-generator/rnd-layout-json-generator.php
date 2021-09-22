@@ -12,7 +12,7 @@
  * Plugin Name:       RND Layout Json Generator
  * Plugin URI:        https://rnd.rodee.ca/core-plugins
  * Description:       This will generate page.json file for all layouts that we can find in the theme folder.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires at least: 1.0.0
  * Requires PHP:      5.2
  * Author:            Dilantha
@@ -90,7 +90,7 @@ function rnd_layout_json_generator_generate(){
             }
         } 
         
-        $jfile  = APP_TMPL . '/plugins/' . basename( dirname( __FILE__ ) ) . '/jsons/' . $name . ".json" ;
+        $jfile  = APP_TMPL . '/layouts/' . $name . ".json" ;
         
         $fp = fopen($jfile, 'w');
         fwrite($fp, json_encode($page, JSON_PRETTY_PRINT));
