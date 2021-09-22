@@ -10,8 +10,8 @@ This plugin is a support tool to create Page Layouts in RND Framework. For more 
 # How to use this plugin?
 
 1. Upload **rnd-layout-json-generator** to your plugins folder.
-2. Create your page layouts in layouts folder.
-3. Reload the site once and get the json file from the **layouts** folder.
+2. Create your page layouts in **rnd-content/layouts** folder.
+3. Reload the site once and get the json file from the **rnd-content/layouts** folder.
 4. Use the json file to create new pages.
 
 # Why we use this plugin?
