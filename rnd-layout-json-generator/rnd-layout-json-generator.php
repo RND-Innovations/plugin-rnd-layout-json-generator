@@ -28,7 +28,7 @@ if(SITE_TEST_MODE>0){
 
 
 function rnd_layout_json_generator_generate(){
-    foreach( glob( RND_THEME_PATH . "/layouts/*", GLOB_ONLYDIR ) as $dir ){
+    foreach( glob( APP_TMPL . "/layouts/*", GLOB_ONLYDIR ) as $dir ){
 
         $name   = basename($dir);
         $page   = rnd_layout_json_generator_default_head( $name );
@@ -90,7 +90,7 @@ function rnd_layout_json_generator_generate(){
             }
         } 
         
-        $jfile  = APP_TMPL . '/layouts/' . $name . ".json" ;
+        $jfile  = APP_TMPL . '/layouts/' . $name . ".json" ; 
         
         $fp = fopen($jfile, 'w');
         fwrite($fp, json_encode($page, JSON_PRETTY_PRINT));
@@ -130,7 +130,7 @@ function rnd_layout_json_generator_complex_content($tags_array, $parent){
         
 
         
-        $fn = RND_THEME_PATH . "/layouts/" . $parent . "/children/" . $tag . ".html";
+        $fn = APP_TMPL . "/layouts/" . $parent . "/children/" . $tag . ".html";
         if (file_exists($fn)){
             
             $str = get_file_contents_from_a_file( $fn );
